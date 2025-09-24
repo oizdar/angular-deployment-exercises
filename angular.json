@@ -32,7 +32,7 @@
             "scripts": [],
             "server": "src/main.server.ts",
             "prerender": {
-              "routesFile": "user-routes.txt" //selected routes generate as static files in dist borwser folder, need to rebuild app if data changes
+              "routesFile": "user-routes.txt"
             },
             "ssr": {
               "entry": "server.ts"
